@@ -4,7 +4,7 @@ def get_str(n: int) -> str:
     :param n: index
     :returns: string
     """
-    if n == 1:
+    if n >= 1:
         return "Success!"
     else:
         return "Fail!"
